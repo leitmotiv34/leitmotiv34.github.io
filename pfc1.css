@@ -3,7 +3,7 @@
 /* Document
    ========================================================================== */
 html {
-  font-family:  "Arial", "Helvetica", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif" ;
+  font-family:  "Arial", "Helvetica", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif" ;
   line-height: 1.15; /* 2 */
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
@@ -150,19 +150,28 @@ template {
 	width: 30% ;
     height: 100%;
     position: fixed;
+	display: block ;
 }
 .logo {
 	margin-top:20% ;
 	margin-left:20% ;
+	color: #222222 ;
 }
 .menu {
 	margin-left:20% ;
+	margin-top:30px;
+	display: inherit;
+}
+.info {
+	margin-left:20%;
+	color: #222222 ;
+	display: inherit;
 }
 ul {
     list-style-type: none;
     padding: 0;
 	overflow: hidden;
-	position: fixed;
+	position: inherit;
 	background-color: #f5f5f5;
 	color: #4988AA;
 }
@@ -184,9 +193,11 @@ li a {
 .title {
 	margin-top: 10%;
 	margin-left: 5%;
+	color: #222222 ;
 }
 .ptitle {
 	margin-top:10% ;
+	color: #222222 ;
 }
 img {
 width:80%;
@@ -201,6 +212,7 @@ height: auto;
 	margin-top: 5% ;
 	max-width: 80% ;
 	line-height: 110%;
+	color: #222222 ;
 }
 @media (max-width: 1280px){
 }
