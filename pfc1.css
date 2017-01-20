@@ -1,0 +1,206 @@
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+html {
+  font-family:  "Arial", "Helvetica", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif" ;
+  line-height: 1.15; /* 2 */
+  -ms-text-size-adjust: 100%; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 3 */
+}
+/* Sections
+   ========================================================================== */
+body {
+  background-color: #f5f5f5 ;
+  margin: 0;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+figcaption,
+figure,
+main { /* 1 */
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+
+/* Interactive
+   ========================================================================== */
+details, /* 1 */
+menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+
+[hidden] {
+  display: none;
+}
+/* * */
+.container {
+	margin-top:0px;
+	width: 100% ;
+}
+.gnavi {
+	width: 30% ;
+    height: 100%;
+    position: fixed;
+}
+.logo {
+	margin-top:20% ;
+	margin-left:20% ;
+}
+.menu {
+	margin-left:20% ;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+	overflow: hidden;
+	position: fixed;
+	background-color: #f5f5f5;
+	color: #4988AA;
+}
+li{
+	float:none ;
+	margin-bottom: 5px;
+}
+li a {
+	display: block;
+    color: #4988AA;
+    text-align: left;
+    text-decoration: none;	
+}
+.main {
+	width: 70% ;
+	float: right ;
+	margin-bottom: 5% ;
+}
+.title {
+	margin-top: 10%;
+	margin-left: 5%;
+}
+.ptitle {
+	margin-top:10% ;
+}
+img {
+width:80%;
+max-width: 80%;
+height: auto;
+}
+.imagel {
+	text-align: center ;
+}
+.about{
+	margin-left: 10%;
+	margin-top: 5% ;
+	max-width: 80% ;
+	line-height: 110%;
+}
+@media (max-width: 1280px){
+}
