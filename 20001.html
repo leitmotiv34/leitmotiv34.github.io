@@ -7,15 +7,24 @@
 	img {
 		border-radius: 500px;
 	}
-	.cimg {
+	.content {
 		display: flex;
-  justify-content: center;
-  align-items: center;
+		display: -webkit-flex;
+		-webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+         align-items: center;
+	}
+	.cimg {
+  -webkit-flex: none;
+  flex: none;
 	}
 </style>
 </head>
+<div class="content">
 <div class="cimg">
-	<p><img src="img/nim.gif"></p>
+	<img src="img/nim.gif">
+</div>
 </div>
 <body>
 </body>
