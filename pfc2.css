@@ -144,7 +144,6 @@ ul {
     list-style-type: none;
     padding: 0;
 	background-color: #f5f5f5;
-	color: #4988AA;
 }
 li{
 	margin-bottom: 5px;
@@ -153,6 +152,16 @@ li a {
     color: #4988AA;
     text-align: left;
     text-decoration: none;	
+}
+li a:visited {
+	color: #4988AA ;
+}
+li a:hover {
+	color: #4988AA ;
+	text-decoration: underline;
+}
+li a:active {
+	color: #4988AA ;
 }
 .info {
 	color: #222222 ;
