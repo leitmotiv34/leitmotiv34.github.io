@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Portfolio - photography</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <link href="css/pfc2.css" rel="stylesheet" doctype="text/css">
 <link href="css/driveway.css" rel="stylesheet" doctype="text/css">
@@ -64,9 +64,11 @@
 </div>
 <script src="js/jquery.swipebox.js"></script>
 <script type="text/javascript">
-;( function( ) {
-　$('.swipebox').swipebox();
-});
+;( function( $ ) {
+
+	$( '.swipebox' ).swipebox();
+
+} )( jQuery );
 </script>
 </body>
 </html>
