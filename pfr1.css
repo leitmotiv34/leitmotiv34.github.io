@@ -150,7 +150,7 @@ template {
 	background-position:40% 0%;
 	background-size: cover;
 }
-@media screen and (min-width: 960px ) {
+@media screen and (min-width: 1025px ) {
 	.first {background-attachment: fixed ;
 	}
 }
