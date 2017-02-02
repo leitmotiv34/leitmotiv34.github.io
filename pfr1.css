@@ -145,10 +145,14 @@ template {
 	vertical-align: center;
 	justify-content: center ;
 	align-items: center ;
-    background: -webkit-linear-gradient(top, rgba(245, 245, 245, 0)50%, rgba(245, 245, 245, 0.99)), url(photo/5.jpg) fixed;
-    background: linear-gradient(to bottom, rgba(245, 245, 245, 0)50%, rgba(245, 245, 245, 0.99)), url(photo/5.jpg) fixed;
+    background: -webkit-linear-gradient(top, rgba(245, 245, 245, 0)50%, rgba(245, 245, 245, 0.99)), url(photo/5.jpg);
+    background: linear-gradient(to bottom, rgba(245, 245, 245, 0)50%, rgba(245, 245, 245, 0.99)), url(photo/5.jpg);
 	background-position:40% 0%;
 	background-size: cover;
+}
+@media screen and (min-width: 960px ) {
+	.first {background-attachment: fixed ;
+	}
 }
 .title {
 	max-width:400px;
