@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+<link href="pfr1.css" rel="stylesheet">
+<link href="colorbox.css" rel="stylesheet">
+<title>portfolio.</title>
+
+</head>
+
+<body>
+	<div class="wrap">
+	<!-- グローバルメニュー イマイチなので要改良
+	<div class="gbar">
+		<ul class="gmenu">
+			<li>Profile</li>
+			<li class="fixed">◆◆◆</li>
+			<li>Works</li>
+		</ul>
+	</div>
+	-->
+	<div class="first fbg">
+        <div class="title">
+		<h1 class="logotext logo1">Portfolio</h1>
+		</div>
+	</div>
+	<div class="prof">
+		<div class="spacer"></div>
+		<div class="profbox">
+			<div class="proftop">
+			<h1 class="logotext logo2">Profile</h1>
+			<h4>はじめまして。内田吉彰と申します。</h4>
+			</div>
+			 <div class="profboxm">
+			  <div class="profl"><img src="img/alt240px.png" alt=""></div>
+			  <div class="profr"><p>ここに説明ここに説明</p></div>
+			 </div>
+		</div>
+		<div class="spacer"></div>
+	</div>
+	<div class="works">
+		<div class="spacer"></div>
+		<div class="worksbox">
+			<div class="workstop"><h1 class="logotext logo2">Works</h1></div>
+			<div class="worksboxm">
+				<div class="witem"><img src="img/wt1.jpg" alt=""><p><a class="cbox" href="w1.html">Wordpress構築: 重機整備業者</a></p></div>
+				<div class="witem"><img src="img/alt240px.png" alt=""><p><a href="">ここに説明ここに説明</a></p></div>
+				<div class="witem"><img src="img/alt240px.png" alt=""><p><a href="">ここに説明ここに説明</a></p></div>
+				<div class="witem"><img src="img/alt240px.png" alt=""><p><a href="">ここに説明ここに説明ここに説明ここに説明</a></p></div>
+				<div class="witem"><img src="img/alt240px.png" alt=""><p><a href="">ここに説明ここに説明</a></p></div>
+			</div>
+		</div>
+		<div class="spacer"></div>
+	</div>
+	<div class="about">
+		<h5 class="logolight bottomtext">HTML5+CSS3 VALIDATED</h5>
+	</div>
+	 	
+	</div>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+<script>
+	    $(window).resize(function () {
+
+        if($('#cboxOverlay').is(':visible')){
+                $.colorbox.load(true);
+        }
+
+    });
+$(document).ready(function(){
+ $(".cbox").colorbox({ iframe: true , maxWidth:"80%" , maxHeight:"80%" });
+});
+</script>
+</body>
+</html>
