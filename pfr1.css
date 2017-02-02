@@ -151,7 +151,7 @@ template {
 	background-size: cover;
 }
 /* ios background-fixed化け対処 */
-@media screen and (min-width: 1025px ) {
+@media screen and (max-width: 1024px ) {
 	.first::before {
   background:url('photo/5.jpg') no-repeat 40% 10%;
   background-size: 100% auto;
