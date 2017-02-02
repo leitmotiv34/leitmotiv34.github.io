@@ -41,7 +41,7 @@
 		fixed: false,
 		data: undefined,
 		closeButton: true,
-		fastIframe: true,
+		fastIframe: false,
 		open: false,
 		reposition: true,
 		loop: true,
