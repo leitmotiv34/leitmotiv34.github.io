@@ -282,6 +282,10 @@ a:active {
 .lightbox {
 	display:none;
 }
+.wlbox {
+	width:80%;
+	height:80%;
+}
 .about {
 	margin:0;
 	padding:0;
