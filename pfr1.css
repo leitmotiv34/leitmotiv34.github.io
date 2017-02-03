@@ -279,6 +279,9 @@ a:active {
 	width:250px;
 	text-align:center;
 }
+.lightbox {
+	display:none;
+}
 .about {
 	margin:0;
 	padding:0;
