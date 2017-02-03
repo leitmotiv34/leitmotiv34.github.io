@@ -283,7 +283,7 @@ a:active {
 	display:none;
 }
 .wlbox {
-	width:800px;
+	width:900px;
 	height:500px;
 }
 .about {
@@ -429,7 +429,7 @@ a:active {
 	flex-wrap: wrap;
 }
 .wlbox {
-	width:300px;
+	width:280px;
 	height:200px;
 }
 }
