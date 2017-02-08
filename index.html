@@ -3,50 +3,107 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portfolio - web</title>
-<link href="pfc2.css" rel="stylesheet" doctype="text/css">
-</head>
-
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+<link href="pfr1.css" rel="stylesheet">
+<link href="css/featherlight.css" rel="stylesheet">
+<link href="css/featherlight.gallery.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/featherlight.js"></script>
+<script type="text/javascript" src="js/featherlight.gallery.js"></script>
+<title>portfolio.</title></head>
 <body>
-<div class="container">
-<div class="gnavi">
-	<div>
-	<h2 class="logo">Portfolio</h2>	
+	<div class="wrap">
+	<!-- グローバルメニュー イマイチなのでなくてもいいかも
+	<div class="gbar">
+		<ul class="gmenu">
+			<li>Profile</li>
+			<li class="fixed">◆◆◆</li>
+			<li>Works</li>
+		</ul>
+	</div> -->
+	<div class="first fbg">
+        <div class="title">
+		<h1 class="logotext logo1">Portfolio</h1>
+		</div>
 	</div>
-	<div class="menu">
-		<ul>
-			<li><a href="index.html">Web</a></li>
-			<li><a href="pfalt_p.html">Photography</a></li>
-			<li><a href="pfalt_m.html">Miscellaneous</a></li>
-		</ul>	
+	<div class="prof">
+		<div class="spacer"></div>
+		<div class="profbox">
+			<div class="proftop">
+			<h1 class="logotext logo2">Hello!</h1>
+			<!-- <h4>Hello!</h4> -->
+			</div>
+			 <div class="profboxm">
+			  <div class="profl"><img class="t24" src="photo/prof.jpg" alt=""></div>
+			  <div class="profr">
+			  <p>初めまして！内田吉彰と申します。</p>
+			  <p>
+			  東京造形大デザイン科写真専攻 2010年卒<br>
+			  フルタイムカメラマン3年の経験をバックボーンに、<br>「写真をちゃんと扱える」デザイナーを目指しています。
+			  </p>
+			  </div>
+			 </div>
+		</div>
+		<div class="spacer"></div>
 	</div>
-	<div class="info">
-		<h3>Yoshiaki Uchida</h3>
+	<div class="works">
+		<div class="spacer"></div>
+		<div class="worksbox">
+			<div class="workstop"><h1 class="logotext logo2">Works - Web</h1></div>
+			<div class="worksboxm">
+				<div class="witem"><a class="gr01" href="#" data-featherlight="#w01"><img class="t24" src="img/wt1.jpg" alt="WP構築事例1"></a>
+				<p><a class="gr01" href="#" data-featherlight="#w01">Wordpress構築: 重機整備業者</a></p>
+				<div class="lightbox"><iframe src="w1.html" class="wlbox" id="w01"></iframe></div></div>
+			</div>
+		</div>
+		<div class="spacer"></div>
 	</div>
-</div>	
-<div class="main">
-	<h2 class="title">Wordpress構築: 重機整備業者</h2>
-	<div class="imagel"><img src="img/at_ss1.jpg"></div>
-	<div class="imagel"><img src="img/at_ss3.jpg"></div>
+	<div class="works">
+		<div class="spacer"></div>
+		<div class="worksbox">
+			<div class="workstop"><h1 class="logotext logo2">Logo,Typography and miscellaneous</h1></div>
+			<div class="worksboxm">
+				<div class="witem"><a class="gr01" href="#" data-featherlight="#lt01"><img class="t24" src="img/mw240px.jpg" alt=""></a>
+				<p><a class="gr01" href="#" data-featherlight="#lt01">ロゴ作字 #1</a></p>
+				<div class="lightbox"><iframe src="lt1.html" class="wlbox" id="lt01"></iframe></div></div>
+				
+				<div class="witem"><a class="gr01" href="#" data-featherlight="#lt02"><img class="t24" src="img/agsm240px.jpg" alt=""></a>
+				<p><a class="gr01" href="#" data-featherlight="#lt02">ロゴ作字 #2</a></p>
+				<div class="lightbox"><iframe src="lt2.html" class="wlbox" id="lt02"></iframe></div></div>
+				
+				<div class="witem"><a class="gr01" href="#" data-featherlight="#lt03"><img class="t24" src="img/fp240px.jpg" alt=""></a>
+				<p><a class="gr01" href="#" data-featherlight="#lt03">ステッカーデザイン</a></p>
+				<div class="lightbox"><iframe src="lt3.html" class="wlbox" id="lt03"></iframe></div></div>
+				
+				<div class="witem"><a class="gr01" href="#" data-featherlight="#lt04"><img class="t24" src="img/atkh240px.jpg" alt=""></a>
+				<p><a class="gr01" href="#" data-featherlight="#lt04">キーホルダー製作</a></p>
+				<div class="lightbox"><iframe src="lt4.html" class="wlbox" id="lt04"></iframe></div></div>
+			</div>
+		</div>
+		<div class="spacer"></div>
+	</div>
+		<div class="works">
+		<div class="spacer"></div>
+		<div class="worksbox">
+			<div class="workstop"><h1 class="logotext logo2">Photography</h1></div>
+			<div class="worksboxm">
+				<div class="witem"><a class="gr01" href="photo/1.jpg" data-featherlight="image"><img class="t24" src="photo/t1.jpg" alt=""></a></div>
+				<div class="witem"><a class="gr01" href="photo/2.jpg" data-featherlight="image"><img class="t24" src="photo/t2.jpg" alt=""></a></div>
+				<div class="witem"><a class="gr01" href="photo/3.jpg" data-featherlight="image"><img class="t24" src="photo/t3.jpg" alt=""></a></div>
+				<div class="witem"><a class="gr01" href="photo/4.jpg" data-featherlight="image"><img class="t24" src="photo/t4.jpg" alt=""></a></div>
+				<div class="witem"><a class="gr01" href="photo/5.jpg" data-featherlight="image"><img class="t24" src="photo/t5.jpg" alt=""></a></div>
+				<div class="witem"><a class="gr01" href="photo/6.jpg" data-featherlight="image"><img class="t24" src="photo/t6.jpg" alt=""></a></div>
+				<div class="witem"><a class="gr01" href="photo/7.jpg" data-featherlight="image"><img class="t24" src="photo/t7.jpg" alt=""></a></div>
+				<div class="witem"><a class="gr01" href="photo/8.jpg" data-featherlight="image"><img class="t24" src="photo/t8.jpg" alt=""></a></div>
+				<div class="witem"><a class="gr01" href="photo/9.jpg" data-featherlight="image"><img class="t24" src="photo/t9.jpg" alt=""></a></div>
+			</div>
+		</div>
+		<div class="spacer"></div>
+	</div>
 	<div class="about">
-	    Wordpress, Adobe Photoshop, Adobe Ps Lightroom /  / 2016年<br>
-フォークリフトなどの重機を取り扱い、整備や改造等のサービスを提供する企業のホームページです。<br>
-創立間もない企業で、業界団体の加入条件に自社HPが必要な為構築の依頼を頂きました。<br>
-<br>
-ヒアリングした要望点は、<br>
-SEOしないこと：会社創立時の事情による<br>
-コーポレートカラーの青を入れてほしい：ペンキの色で指定<br>
-編集操作の簡単な作りにしてほしい：担当者はいないので、誰でも記事更新がしやすいこと<br>
-「現場系中小企業っぽさ」のあるシンプルな作りにしてほしい：webには強くない現場の職人タイプの顧客が多く、HP見て驚かれないようにする為<br>
-<br>
-「重機の整備検査だけでなく改造や移設も請負い、様々な種類の重機をワンストップでサービス提供できる会社は業界内でも少ない」というポイントを踏まえ、受注した案件を随時記事として蓄積し事例集にすることができるよう、更新時に記事を書いた方にもわかりやすくなるよう、カテゴリ分けを考慮しました。<br>
-<br>
-事務方以外は全て重機技術者で営業専任者は無し、創立当初はそもそも事務作業スペースすらなくプレハブを組むところからスタート、社内環境の整備と並行して整備エンジニア全員での出張等も度々あったためなかなか打ち合わせが進まず構築には1ヶ月ほどの作業時間が必要になってしまいましたが、通常の企業HPの構築とは少し違う体験が得られました。<br>
-<br>
-撮影技術を活かしトップページ用や記事更新時の素材に使う為の社屋や工場内の様子等の写真撮影も行いました。<br>
-その他、HP構築とは別件ですがノベルティやステッカー等の小物のデザイン作業・発注作業、社内ネットワーク構築やインターネット設定・複合機設定等の作業も行いました。
-  </div>
-</div>		
-</div>
+		<h5 class="logolight bottomtext">RESPONSIVE HTML5+CSS3</h5>
+	</div>
+	</div>
 </body>
 </html>
