@@ -399,6 +399,9 @@ a:active {
 	flex-wrap:wrap;
 	align-items:center;
 }
+	.profr {
+		width:300px;
+	}
 .spacer {
 	display:none ;
 }
