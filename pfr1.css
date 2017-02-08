@@ -121,7 +121,7 @@ template {
 [hidden] {
   display: none;
 }
-/* ============== ============== ============== ここまでnormalize ============== ============== ============== */
+/* ============== ============== ここまでnormalize ============== ============== */
 
 .altbg {
 	background-color:#444444;
@@ -234,19 +234,24 @@ a:active {
 	text-align:center;
 }
 .profboxm {
-	margin-top:30px;
+	width:600px;
+	padding-top:30px;
 	display:flex;
-	flex-direction:row;
-	justify-content:space-between;
+	flex-direction:column;
+	justify-content:center;
 	flex-wrap:nowrap;
+	align-items:center;
 }
 .profl {
 	width:300px;
 	text-align:center;
 }
 .profr {
-	width:300px;
+	width:450px;
 	text-align:center;
+}
+.pdesc {
+	text-align:left;
 }
 .works {
 	margin: 0;
@@ -369,7 +374,7 @@ a:active {
 }
 }
 @media screen and (max-width: 599px){
-	.prof {
+.prof {
 	margin: 0;
 	padding: 0;
 	width: 100%;
