@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ノーマライズ5.0 -->
+<link href="normalize.css" rel="stylesheet">
+
+<!-- スタイルシート -->
+<link href="nippou.css" rel="stylesheet">
+
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+
+<!-- title内に日付、所属、氏名を入れること -->
+<title>日報</title>
+</head>
+
+<body>
+<div class="container">
+<div class="main">
+	<div class="header">
+		<p>各位</p>
+		<p>お疲れ様です。<br>RT○ ○○です。</p>
+		<p>本日の業務報告をお送りさせていただきます。<br>ご確認のほどよろしくお願いいたします。<br>
+		＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊</p>
+	</div>
+	<div class="comment">
+		<p>本日の一言報告：<br>
+		所属：RT○<br>
+		報告者：<!-- 氏名 --><br>
+		報告日：201*年*月*日（*曜日）</p>
+	</div>
+	<div class="plans">
+		<p>一週間の予定</p>
+		<!-- ここにテーブル -->
+		<table class="weektable" width="300" border="0">
+  <tbody>
+    <tr>
+      <th scope="col">&nbsp;</th>
+      <th scope="col">午前</th>
+      <th scope="col">午後</th>
+    </tr>
+    <tr>
+      <th scope="row">月</th>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">火</th>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">水</th>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">木</th>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">金</th>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+	</div>
+	<div class="time">
+		<p>勤務表<br>*月*日*曜日<br>社内業務</p>
+		<table class="timetable" width="250" >
+  <tbody>
+    <tr>
+      <th scope="row">-10:00</th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">-11:00</th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">-12:00</th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">-13:00</th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">-14:00</th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">-15:00</th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">-16:00</th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">-17:00</th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">-18:00</th>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th scope="row">-19:00</th>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<p>以上</p>
+	</div>
+</div>
+</div>
+
+<!-- グラデーション -->
+<script type="text/javascript">
+$(".textgrad").pxgradient({
+    step: 10, 
+    colors: ["#fc0","#0fc","#00f"], 
+    dir: "x"
+});
+</script>
+
+</body>
+</html>

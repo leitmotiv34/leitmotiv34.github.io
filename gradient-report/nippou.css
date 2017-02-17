@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+.container {
+	min-height:100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Mplus 1p";
+	/* background-color:rgba(0,0,0,0.03); */
+ background: linear-gradient(221deg, #00ffbd, #0076ff, #dc00ff, #ffab00);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+	
+.main {
+	background-color:#ffffff;
+	width: 420px;
+	height: 630px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 30px;
+	padding-top: 15px;
+	box-shadow: 0px 4px 16px 4px #cccccc;
+}
+.container p {
+	font-size:11px;
+}
+.header {
+	width: 100%;
+	height: 100px;
+}
+.comment {
+	width: 100%;
+	height: 70px;
+}
+.plans {
+	
+}
+.weektable {
+	margin-top:10px;
+	margin-bottom:15px;
+}
+.weektable th {
+	text-align: left;
+	font-size: 10px;
+}
+.weektable td {
+	font-size: 9px;
+}
+#weekhl {
+	font-size:10px;
+	margin:0;
+}
+.time {
+	margin-top:10px;
+}
+#sp1 {
+	font-size:8px;
+}
+.timetable th {
+	height: 13px;
+	text-align:left;
+	font-size: 10px;
+}
+.timetable td {
+	text-align:left;
+	font-size: 9px;
+}
