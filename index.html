@@ -1,121 +1,83 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
-<link href="pfr1.css" rel="stylesheet">
-<link href="css/featherlight.css" rel="stylesheet">
-<link href="css/featherlight.gallery.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="js/featherlight.js"></script>
-<script type="text/javascript" src="js/featherlight.gallery.js"></script>
-<title>portfolio.</title></head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="https://rawgit.com/outboxcraft/beauter/master/beauter.min.css">
+</head>
 <body>
-	<div class="wrap">
-	<!-- グローバルメニュー イマイチなのでなくてもいいかも
-	<div class="gbar">
-		<ul class="gmenu">
-			<li>Profile</li>
-			<li class="fixed">◆◆◆</li>
-			<li>Works</li>
-		</ul>
-	</div> -->
-	<div class="first fbg">
-        <div class="title">
-		<h1 class="logotext logo1">Portfolio</h1>
-		</div>
-	</div>
-	<div class="prof">
-		<div class="spacer"></div>
-		<div class="profbox">
-			<div class="proftop">
-			<h1 class="logotext logo2">Hello!</h1>
-			<!-- <h4>Hello!</h4> -->
-			</div>
-			 <div class="profboxm">
-			  <div class="profl"><img class="t24" src="photo/prof.jpg" alt=""></div>
-			  <div class="profr">
-			  <p>初めまして！Y.Uと申します。</p>
-			  <p>
-			  東京造形大デザイン科写真専攻 2010年卒<br>
-			  フルタイムカメラマン3年の経験をバックボーンに、<br>「写真もWebも紙もちゃんと扱える」デザイナーを目指しています。
-			  </p>
-			  </div>
-			 </div>
-		</div>
-		<div class="spacer"></div>
-	</div>
-	<div class="works">
-		<div class="spacer"></div>
-		<div class="worksbox">
-			<div class="workstop"><h1 class="logotext logo2">Works - Web</h1></div>
-			<div class="worksboxm">
-				<div class="witem"><a class="gr01" href="#" data-featherlight="#w01"><img class="t24" src="img/wt1.jpg" alt="WP構築事例1"></a>
-				<p><a class="gr01" href="#" data-featherlight="#w01">Wordpress構築: 重機整備業者</a></p>
-				<div class="lightbox"><iframe src="w1.html" class="wlbox" id="w01"></iframe></div></div>
-				
-				<div class="witem"><a class="gr01" href="#" data-featherlight="#w03"><img class="t24" src="img/aaecv_t.jpg" alt="キャンペーンページ"></a>
-				<p><a class="gr01" href="#" data-featherlight="#w02">新製品キャンペーン<br>ページデザイン</a></p>
-				<div class="lightbox"><iframe src="w3.html" class="wlbox" id="w03"></iframe></div></div>
-				
-				<div class="witem"><a class="gr01" href="#" data-featherlight="#w02"><img class="t24" src="img/pf240px.jpg" alt="ポートフォリオサイト"></a>
-				<p><a class="gr01" href="#" data-featherlight="#w02">レスポンシブサイト構築<br>（このページ）</a></p>
-				<div class="lightbox"><iframe src="w2.html" class="wlbox" id="w02"></iframe></div></div>
-			</div>
-		</div>
-		<div class="spacer"></div>
-	</div>
-	<div class="works">
-		<div class="spacer"></div>
-		<div class="worksbox">
-			<div class="workstop"><h1 class="logotext logo2">Logo,Typography and miscellaneous</h1></div>
-			<div class="worksboxm">
-				<div class="witem"><a class="gr01" href="#" data-featherlight="#lt01"><img class="t24" src="img/mw240px.jpg" alt=""></a>
-				<p><a class="gr01" href="#" data-featherlight="#lt01">ロゴ作字 #1</a></p>
-				<div class="lightbox"><iframe src="lt1.html" class="wlbox" id="lt01"></iframe></div></div>
-				
-				<div class="witem"><a class="gr01" href="#" data-featherlight="#lt02"><img class="t24" src="img/agsm240px.jpg" alt=""></a>
-				<p><a class="gr01" href="#" data-featherlight="#lt02">ロゴ作字 #2</a></p>
-				<div class="lightbox"><iframe src="lt2.html" class="wlbox" id="lt02"></iframe></div></div>
-				
-				<div class="witem"><a class="gr01" href="#" data-featherlight="#lt03"><img class="t24" src="img/fp240px.jpg" alt=""></a>
-				<p><a class="gr01" href="#" data-featherlight="#lt03">ステッカーデザイン</a></p>
-				<div class="lightbox"><iframe src="lt3.html" class="wlbox" id="lt03"></iframe></div></div>
-				
-				<div class="witem"><a class="gr01" href="#" data-featherlight="#lt04"><img class="t24" src="img/atkh240px.jpg" alt=""></a>
-				<p><a class="gr01" href="#" data-featherlight="#lt04">キーホルダー製作</a></p>
-				<div class="lightbox"><iframe src="lt4.html" class="wlbox" id="lt04"></iframe></div></div>
-				
-				<div class="witem"><a class="gr01" href="#" data-featherlight="#lt05"><img class="t24" src="img/na6_rm_t.jpg" alt=""></a>
-				<p><a class="gr01" href="#" data-featherlight="#lt05">D1GP参戦車両デザイン</a></p>
-				<div class="lightbox"><iframe src="lt5.html" class="wlbox" id="lt05"></iframe></div></div>
-			</div>
-		</div>
-		<div class="spacer"></div>
-	</div>
-		<div class="works">
-		<div class="spacer"></div>
-		<div class="worksbox">
-			<div class="workstop"><h1 class="logotext logo2">Photography</h1></div>
-			<div class="worksboxm">
-				<div class="witem"><a class="gr01" href="photo/1.jpg" data-featherlight="image"><img class="t24" src="photo/t1.jpg" alt=""></a></div>
-				<div class="witem"><a class="gr01" href="photo/2.jpg" data-featherlight="image"><img class="t24" src="photo/t2.jpg" alt=""></a></div>
-				<div class="witem"><a class="gr01" href="photo/3.jpg" data-featherlight="image"><img class="t24" src="photo/t3.jpg" alt=""></a></div>
-				<div class="witem"><a class="gr01" href="photo/4.jpg" data-featherlight="image"><img class="t24" src="photo/t4.jpg" alt=""></a></div>
-				<div class="witem"><a class="gr01" href="photo/5.jpg" data-featherlight="image"><img class="t24" src="photo/t5.jpg" alt=""></a></div>
-				<div class="witem"><a class="gr01" href="photo/6.jpg" data-featherlight="image"><img class="t24" src="photo/t6.jpg" alt=""></a></div>
-				<div class="witem"><a class="gr01" href="photo/7.jpg" data-featherlight="image"><img class="t24" src="photo/t7.jpg" alt=""></a></div>
-				<div class="witem"><a class="gr01" href="photo/8.jpg" data-featherlight="image"><img class="t24" src="photo/t8.jpg" alt=""></a></div>
-				<div class="witem"><a class="gr01" href="photo/9.jpg" data-featherlight="image"><img class="t24" src="photo/t9.jpg" alt=""></a></div>
-			</div>
-		</div>
-		<div class="spacer"></div>
-	</div>
-	<div class="about">
-		<h5 class="logolight bottomtext">RESPONSIVE CODE, HTML5+CSS3 VALID</h5>
-	</div>
-	</div>
+<div class="row _cream">
+    <div class="container">
+    <div class="col m12"><h1>Portfolio</h1></div>
+    <div class="col m8">
+       <h2>Hello!</h2>
+        <p>初めまして！Y.Uと申します。<br>
+        東京造形大デザイン科写真専攻 2010年卒<br>
+        専業プロカメラマンの経験をバックボーンに、<br>
+        写真もWebも紙もちゃんと扱えることを目指しています。</p>
+    </div> 
+    <div class="col m4 _alignRight"><img class="_round" src="photo/prof.jpg" alt=""></div>
+    <div class="col m12">
+        <h2>works - web</h2>
+    </div>
+    <div class="col m8">
+        <p class="note _high ">少年漫画誌アプリ/Web - ディレクション・デザイン</p>
+        <p>少年漫画誌の公式アプリ運営チームにて、ディレクターを担当していました。<br>
+        複数の雑誌が一つのアプリに載っており、連日多数の原稿やバナーが入れ替わることから、
+        コーダーエンジニアチームを含めて進行管理を行いつつ、バナーやLP等の実制作に携わっていました。<br>
+        また、原稿管理チームと連携しての電子版漫画原稿のチェック作業や、原稿修正などの業務もありました。
+        </p>
+    </div>
+    <div class="col m4"><img src="photo/w1.jpg" alt=""></div>
+    <div class="col m8">
+        <p class="note _high">官公庁Webサイト - ディレクション</p>
+        <p>官公庁サイトの運用ディレクターを担当していました。<br>
+        年次予算単位で進行する改修のため顧客訪問・見積もり作成等・外注の進行管理をメインに行いつつ、
+        顧客側担当者からの運用問い合わせ対応・作業補助等を行っていました。<br>
+        全国に50以上の事業所・担当者数百名規模のため、改修作業のスケジューリングと周知・問い合わせ対応に苦労しました。
+        </p>
+    </div>
+    <div class="col m4"><img src="photo/w2.jpg" alt=""></div>
+    <div class="col m8">
+        <p class="note _high">機械メーカーWebサイト - ディレクション</p>
+        <p>機械メーカーコーポレートサイトの運用ディレクターを担当していました。<br>
+        顧客担当者からの更新・改修依頼の対応・見積作成がメイン業務でした。<br>
+        基本的にCMSで可能な範囲の内製作業が大半でしたが、時折発生する外注での改修作業についての見積対応・進行管理も担当していました。
+        </p>
+    </div>
+    <div class="col m4"><img src="photo/w3.jpg" alt=""></div>
+        <div class="col m8">
+        <p class="note _high">自動車パーツメーカー新商品キャンペーンページ構築 - デザイン</p>
+        <p>自動車パーツメーカーの新商品キャンペーンページのデザインと構築を行いました。<br>
+ページから必要事項を投稿してもらい、蓄積したデータを顧客側担当者でブログに反映させるという形で構築を行いました。
+話があってからキャンペーン開始日まで時間がなかったため(10営業日ほど)、投稿フォームについてはコーダーさんに実装してもらい、自分の方で告知バナー2点（大・小）とキャンペーンページのデザイン・コーディングを行いました。
+        </p>
+    </div>
+    <div class="col m4"><img src="photo/w4.jpg" alt=""></div>
+    <div class="col m12">
+        <h2>works - other</h2>
+    </div>
+    <div class="col m8">
+        <p class="note _high">レーシングカー - 車両外装デザイン</p>
+        <p>顧客企業のD1GP参戦車両のデザイン補助と、スポンサー企業に提供するための5面図を制作しました。<br>
+前年度参戦の車両（車種は違うもの）のカラーリングをベースとし、顧客の指示（スポンサーロゴの面積比等や装備品の指定）に従いつつデザイン図を制作しました。<br>
+絶版パーツを使い高度に改造された車両のため外形が市販車両と大幅に違い、自力で海外サイトから参考写真を探すなどの苦労もありました。</p>
+    </div>
+    <div class="col m4"><img src="photo/d1.jpg" alt=""></div>
+    <div class="col m8">
+        <p class="note _high">ノベルティグッズ - デザイン</p>
+        <p>重機サービス企業の納品車両用キーホルダーを制作しました。<br>
+        ノベルティ一つでも大手メーカーにはない遊び心を入れたい、という要望から、車両のシルエットでアクリルキーホルダーを作りました。<br>
+       納品先に好評頂いたとのことで、いくつかある車両のクラス分けに合わせたバリエーション展開の要望も頂いています。
+        </p>
+    </div>
+    <div class="col m4"><img class="_round" src="photo/d2.jpg" alt=""></div>
+    <div class="col m12">
+        <p class="_low">©2019<br>
+        HTML5 VALID. Make with Brackets + Beauter</p>
+    </div>
+    </div>
+</div>
 </body>
 </html>
